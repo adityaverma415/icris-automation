@@ -1,5 +1,5 @@
 """
-This module defines funcitons for handling input and output of data.
+This module defines functions for handling input and output of data.
 
 """
 
