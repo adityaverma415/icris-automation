@@ -40,4 +40,4 @@ $ python -m icris_automation entities.txt Annual\ Return 3 -p
 
 ## License
 
-This project is distributed under the [MIT]() license. 
+This project is distributed under the [MIT](https://github.com/adityaverma415/icris_automation/blob/master/LICENSE) license. 
