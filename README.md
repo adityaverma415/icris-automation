@@ -20,20 +20,24 @@ The package can be imported into the Python interpreter and be run from the comm
 
 Running it in Python Interactive:
 ```Python
-from icris_automation import *
-
-companies_list = ['MIGRASIA GLOBAL SOLUTIONS LIMITED', 'TopMan Asia Limited']
-browser = init_browser(headless=False) # Open Firefox
-browser = init_icris(browser)
-status_df = process_requests(
-                            companies_list,
-                            browser,
-                            document_type='Annual Return',
-                            num_doc=3,
-                            ) # Cart documents and return a dataframe containing information about the process
+>>> from icris_automation import *
+>>> 
+>>> companies_list = ['MIGRASIA GLOBAL SOLUTIONS LIMITED', 'TopMan Asia Limited']
+>>> browser = init_browser(headless=False) # Open Firefox
+>>> browser = init_icris(browser)
+>>> status_df = process_requests(
+...                            companies_list,
+...                            browser,
+...                            document_type='Annual Return',
+...                            num_doc=3,
+...                            ) # Cart documents and return a dataframe containing information about the process
 ```
 
 Running it from the command line:
 ```Bash
-python -m icris_automation entities.txt Annual\ Return 3 -p
+$ python -m icris_automation entities.txt Annual\ Return 3 -p
 ```
+
+## License
+
+This project is distributed under the [MIT]() license. 
