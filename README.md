@@ -6,31 +6,26 @@ The package is highly modularized, making it easy to modify and extend the funct
 
 ## Installation
 
-### Method 1
-1. Download the root directory
-2. Run `pip install -r requirements.txt`
-
-### Method 2
-
-1. Run 'pip install git+ssh:`
+The package can be installed by following the instructions defined [here](https://cets.seas.upenn.edu/answers/install-python-module.html).
 
 ## Usage
 
 The package can be imported into the Python interpreter and be run from the command line. 
 
-Running it in Python Interactive:
+Running it in from the Python interpreter:
 ```Python
 >>> from icris_automation import *
 >>> 
 >>> companies_list = ['MIGRASIA GLOBAL SOLUTIONS LIMITED', 'TopMan Asia Limited']
 >>> browser = init_browser(headless=False) # Open Firefox
 >>> browser = init_icris(browser)
+>>> # Cart documents and return a dataframe containing information about the process
 >>> status_df = process_requests(
 ...                            companies_list,
 ...                            browser,
 ...                            document_type='Annual Return',
 ...                            num_doc=3,
-...                            ) # Cart documents and return a dataframe containing information about the process
+...                            )
 ```
 
 Running it from the command line:
