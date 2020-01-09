@@ -18,7 +18,7 @@ Running it in from the Python interpreter:
 ```Python
 >>> from icris_automation import *
 >>> 
->>> companies_list = ['MIGRASIA GLOBAL SOLUTIONS LIMITED', 'TopMan Asia Limited']
+>>> companies_list = ['Company X', 'Company Y']
 >>> browser = init_browser(headless=False) # Open Firefox
 >>> browser = init_icris(browser)
 >>> # Cart documents and return a dataframe containing information about the process
