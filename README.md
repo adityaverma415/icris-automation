@@ -17,7 +17,6 @@ The package can be imported into the Python interpreter and be run from the comm
 Running it in from the Python interpreter:
 ```Python
 >>> from icris_automation import *
->>> 
 >>> companies_list = ['Company X', 'Company Y']
 >>> browser = init_browser(headless=False) # Open Firefox
 >>> browser = init_icris(browser)
