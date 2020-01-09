@@ -6,7 +6,7 @@ The package is highly modularized, making it easy to modify and extend the funct
 
 ## Installation
 
-The package relies on the Python bindings of Selenium. [Here](https://selenium-python.readthedocs.io/installation.html) are the installation instructions. Currently, the project supports bindings for Firefox  and PhantomJS for visible and headless operation respectively (see the function `init_browser` in the `doc` module for more details.
+The package relies on the Python bindings of Selenium. [Here](https://selenium-python.readthedocs.io/installation.html) are the installation instructions. Currently, the project supports bindings for Firefox  and PhantomJS for visible and headless operation respectively (see the function `init_browser` in the `icris_automation.navigation` module for more details.
 
 The package itself can be installed by following the instructions defined [here](https://cets.seas.upenn.edu/answers/install-python-module.html).
 
